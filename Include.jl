@@ -1,5 +1,5 @@
 # setup paths -
-const _ROOT = pwd();
+const _ROOT = dirname(abspath(@__FILE__));
 const _PATH_TO_SRC = joinpath(_ROOT, "src");
 const _PATH_TO_DATA = joinpath(_ROOT, "data");
 const _PATH_TO_TMP = joinpath(_ROOT, "tmp");
